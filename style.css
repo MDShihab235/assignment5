@@ -1,0 +1,52 @@
+#meals{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px; 
+}
+.meal{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+.meal-name{
+    font-size: 40px;
+    color: magenta;
+    text-decoration: none;
+}
+.meal img{
+    width: 200px;
+    border-radius: 10px;
+}
+
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 20px;
+    border: 1px solid grey;
+    border-left: none; 
+    cursor: pointer;
+
+  }
+  form.example button:hover {
+    background: #bd8db5;
+  }
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
