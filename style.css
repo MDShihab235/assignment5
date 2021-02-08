@@ -1,52 +1,39 @@
-#meals{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
-    margin-top: 20px; 
-}
-.meal{
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 10px;
-    padding: 20px;
-    text-align: center;
-    width: 200px;
-}
-.meal-name{
-    font-size: 40px;
-    color: magenta;
-    text-decoration: none;
-}
-.meal img{
-    width: 200px;
-    border-radius: 10px;
+
+#search-box {
+  margin-top: 5%;
+  height: 50px;
 }
 
+#meals {
+  background-color: white;
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  grid-gap: 15px;
+}
 
-form.example input[type=text] {
-    padding: 10px;
-    font-size: 17px;
-    border: 1px solid grey;
-    float: left;
-    width: 80%;
-    background: #f1f1f1;
-  }
-  form.example button {
-    float: left;
-    width: 20%;
-    padding: 10px;
-    background: #2196F3;
-    color: white;
-    font-size: 20px;
-    border: 1px solid grey;
-    border-left: none; 
-    cursor: pointer;
+.meal {
+  border-radius: 10px;
+  text-align: center;
+  width: 250px;
+  background-color: rgb(238, 238, 238);
+}
 
-  }
-  form.example button:hover {
-    background: #bd8db5;
-  }
-  form.example::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+.meal img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.all-item {
+  margin-left: 25%;
+}
+
+.meal ul, h4 {
+  padding-left: 8%;
+  text-align: left;
+  font-size: 1rem;
+}
+.meal li{
+  font-size: small;
+}
